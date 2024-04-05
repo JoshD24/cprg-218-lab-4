@@ -88,7 +88,7 @@ function createCardElement(item) {
    * Option 2
    */
   async function renderOption2() {
-    const myFavouritePokemon = ["chansey", "metagross", "gengar", "lucario", "pikachu", "charizard", "rayquaza", "milotic"];
+    const myFavouritePokemon = ["metagross", "salamence", "blaziken", "exploud", "rayquaza", "aggron", "flygon", "tropius", "manectric", "groudon", "kyogre"];
   
     const fetchPokemonData = async (pokemon) => {
       const url = `https://pokeapi.co/api/v2/pokemon/${pokemon}`;

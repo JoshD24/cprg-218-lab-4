@@ -1,4 +1,8 @@
 /* Sections */
+body {
+    background-color: #d1eab9;
+}
+
 .container {
     margin: 3rem auto;
     max-width: 75rem;

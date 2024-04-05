@@ -19,9 +19,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: gray;
+    background-color: #6e9c6d;
   }
   
+  .header-title{
+    color: white;
+    font-size: clamp(2.5rem, 4vw, 4vw)
+  }
+
+  .header-subheader{
+    color: white;
+    font-size: clamp(3rem, 2vw, 2vw)
+  }
+
   /* || STYLES */
   .option-2{
     min-height: 100vh;
@@ -38,14 +48,31 @@
     margin: 1rem;
   }
   
+  .header{
+    color: white;
+  }
+
+  .subheader{
+    color: white;
+  }
+
+  .header, .subheader{
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
   .card {
-    background-color: #fff;
+    background-color: #6e906a;
     border-radius: 4px;
     box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%);
     max-width: 21.1875rem;
     flex: 1 0 50%;
+    transition: all 0.4s;
   }
   
+  .card:hover{
+    transform: scale(1.04);
+  }
   .card-content {
     padding: 1rem;
   }
@@ -66,7 +93,7 @@
   }
   
   img {
-    border-bottom: 0.25rem solid #fc0;
+    /* border-bottom: 0.25rem solid #ffd400; */
     border-radius: 0.25rem 0.25rem 0 0;
     height: auto;
     width: 100%;
